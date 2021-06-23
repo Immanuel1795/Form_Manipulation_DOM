@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.required-chk {
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+	opacity: 0.8;
+	border-radius: 5px;
+	margin: 2px;
+  }
+
+.container {
+	padding: 2%;
+}
+
+body{
+	background: #396afc;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	background-color: #396afc;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+	
+color: white !important ;
+overflow-x: hidden;
+font-size: clamp(17px, 1.28vw, 18px);
+font-family: 'Staatliches', cursive;
+
+}
+
+button{
+	color: white !important;
+	background-color: white ;
+}
+
+
+form{
+	
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 5px;
+	/* margin: 0 auto; */
+	
+	
+	
+}
+
+
+
+thead, tbody{
+	color: white;
+	
+	
+}
+
+.table {
+	margin: auto;
+ 
+ }
+
+ .wrapping {
+	word-wrap: break-word;
+	max-width: 160px;
+ }
+
+
+
+ @media (min-width: 414px) and (max-width: 539px) {
+	
+	body{
+		font-size: 1.3rem;
+	}
+
+	::placeholder{
+		font-size: 1.1rem;
+		}
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+	.display-medium{
+		display: none;
+	}
+
+	body{
+		font-size: 1.5rem;
+	}
+
+	::placeholder{
+		font-size: 1.1rem;
+		}
+
+	button{
+		margin-bottom: 25px;
+	}
+
+	input[type="text"],input[type="number"], .textarea{
+		font-size: 1.4rem;
+	}
+
+	
+	
+  }
+  
+  
+  
+  @media (max-width: 1024px) {
+	
+	
+  }
+  
+  
+  @media (max-width: 990px) { 
+		
+		 
+		.table {
+			margin-top: 15px;
+		 
+		 }
+
+		 .wrapping {
+			word-wrap: break-word;
+			max-width: 100px;
+		 }
+		
+	  }
+
+  
+	  @media (max-width: 767px) {
+		.display-small{
+			display: none;
+		}
+
+		
+	  }
+
+ 
