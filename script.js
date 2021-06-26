@@ -21,7 +21,7 @@ document.getElementById("details-form").addEventListener("submit", (e) => {
     checkValues.push(checkbox.value);
   });
 
-  if (checkValues.length <= 0) {
+  if (checkValues.length < 2) {
     var span = document.getElementById("span");
     span.innerText = "Please tick two of your favorite food";
     span.style.color = "red";
